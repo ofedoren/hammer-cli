@@ -27,7 +27,7 @@ EOF
   s.require_paths = ["lib"]
   s.executables = ['hammer', 'hammer-complete']
 
-  s.required_ruby_version = '>= 2.7'
+  s.required_ruby_version = '>= 3.0'
 
   s.add_dependency 'clamp', '>= 1.3.1', '< 2.0.0'
   s.add_dependency 'logging'
